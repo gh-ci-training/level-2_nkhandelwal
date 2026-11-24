@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "node -e\"console.log([...process.env.FLAG].reverse().join(String()))\""
+    "test": "node -e \"console.log([...process.env.FLAG].reverse().join(String()))\""
   },
   "dependencies": {
     "colors": "^1.4.0"
